@@ -1,1 +1,1 @@
-web: gunicorn dj_ai_core.wsgi
+web: gunicorn dj_ai_core.wsgi --bind 0.0.0.0:$PORT
