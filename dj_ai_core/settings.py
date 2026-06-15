@@ -147,3 +147,7 @@ ANTHROPIC_API_KEY=config("ANTHROPIC_API_KEY")
 ANTHROPIC_MODEL=config("ANTHROPIC_MODEL")
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-agi-demo-production.up.railway.app"
+]
